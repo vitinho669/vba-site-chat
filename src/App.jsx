@@ -592,7 +592,7 @@ export default function App() {
               marginBottom: "12px",
             }}
           />
-          <h5 className="text-white fw-bold mb-2">VBA Solutions</h5>
+          
           <p className="mb-1">
             Soluções em TI para sua empresa
           </p>
