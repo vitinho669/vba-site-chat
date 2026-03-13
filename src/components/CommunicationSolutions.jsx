@@ -7,7 +7,7 @@ const items = [
   {
     title: "Integração via API",
     text: "Conecte a comunicação ao seu CRM, sistema ou automação sem necessidade de utilizar interface de atendimento.",
-    price: "R$80 por número/mês",
+    price: "R$150 por número/mês",
   },
   {
     title: "Backup Corporativo",
