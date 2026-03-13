@@ -47,7 +47,7 @@ export default function CommunicationSolutions() {
 
         <div className="text-center mt-5">
           <a
-            href="https://wa.me/5500000000000"
+            href="https://wa.me/5518996076660"
             className="btn btn-primary btn-lg"
             target="_blank"
             rel="noreferrer"
