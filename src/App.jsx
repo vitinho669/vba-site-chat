@@ -95,18 +95,18 @@ const steps = [
     text: "Seguimos apoiando sua empresa com suporte, evolução e continuidade do serviço.",
   },
 ];
+
 const clientLogos = [
   { name: "Eservice", src: "/clientes/eservice.png" },
   { name: "Haddad", src: "/clientes/haddad.png" },
   { name: "CrossHard", src: "/clientes/crosshard.png" },
-  //{ name: "Cliente 4", src: "/clientes/cliente4.png" },
-  //{ name: "Cliente 5", src: "/clientes/cliente5.png" },
-  //{ name: "Cliente 6", src: "/clientes/cliente6.png" },
+  // { name: "Cliente 4", src: "/clientes/cliente4.png" },
+  // { name: "Cliente 5", src: "/clientes/cliente5.png" },
+  // { name: "Cliente 6", src: "/clientes/cliente6.png" },
 ];
 
 export default function App() {
   return (
-     return (
     <div style={{ backgroundColor: "#f4f7fb", color: "#0f172a" }}>
       <style>
         {`
@@ -124,6 +124,7 @@ export default function App() {
           }
         `}
       </style>
+
       <nav
         className="navbar navbar-expand-lg"
         style={{
@@ -220,10 +221,7 @@ export default function App() {
                   Conhecer serviços
                 </a>
 
-                <a
-                  href="#vba-chat"
-                  className="btn btn-outline-light btn-lg"
-                >
+                <a href="#vba-chat" className="btn btn-outline-light btn-lg">
                   Conhecer o VBA Chat
                 </a>
               </div>
@@ -292,20 +290,23 @@ export default function App() {
                 </div>
 
                 <h3 className="fw-bold mb-3">
-                  Uma estrutura de TI mais organizada para o dia a dia da sua empresa
+                  Uma estrutura de TI mais organizada para o dia a dia da sua
+                  empresa
                 </h3>
 
                 <p className="text-secondary mb-4">
-                  Da operação técnica aos canais de atendimento, a proposta da VBA
-                  Solutions é ajudar sua empresa a trabalhar com mais estabilidade,
-                  visibilidade e continuidade.
+                  Da operação técnica aos canais de atendimento, a proposta da
+                  VBA Solutions é ajudar sua empresa a trabalhar com mais
+                  estabilidade, visibilidade e continuidade.
                 </p>
 
                 <ul className="list-unstyled mb-0">
                   <li className="mb-3">✅ Contratos de suporte técnico</li>
                   <li className="mb-3">✅ Gerenciamento de servidores e rede</li>
                   <li className="mb-3">✅ Backup e continuidade</li>
-                  <li className="mb-3">✅ Atendimento corporativo com VBA Chat</li>
+                  <li className="mb-3">
+                    ✅ Atendimento corporativo com VBA Chat
+                  </li>
                 </ul>
               </div>
             </div>
@@ -349,7 +350,7 @@ export default function App() {
         </div>
       </section>
 
-            <section className="py-5 bg-white" style={{ overflow: "hidden" }}>
+      <section className="py-5 bg-white" style={{ overflow: "hidden" }}>
         <div className="container py-2">
           <div className="text-center mb-4">
             <h2 className="fw-bold">Empresas que confiam na VBA Solutions</h2>
@@ -363,7 +364,8 @@ export default function App() {
               position: "relative",
               overflow: "hidden",
               width: "100%",
-              maskImage: "linear-gradient(to right, transparent, black 10%, black 90%, transparent)",
+              maskImage:
+                "linear-gradient(to right, transparent, black 10%, black 90%, transparent)",
               WebkitMaskImage:
                 "linear-gradient(to right, transparent, black 10%, black 90%, transparent)",
             }}
@@ -419,12 +421,14 @@ export default function App() {
           </div>
         </div>
       </section>
-      
+
       <section id="vba-chat" className="py-5">
         <div className="container py-2">
           <div className="row align-items-center g-5">
             <div className="col-lg-6">
-              <span className="badge text-bg-primary mb-3">Produto em destaque</span>
+              <span className="badge text-bg-primary mb-3">
+                Produto em destaque
+              </span>
               <h2 className="fw-bold mb-3">Conheça o VBA Chat</h2>
               <p className="text-secondary mb-4">
                 O VBA Chat é a solução da VBA Solutions para empresas que
@@ -441,10 +445,7 @@ export default function App() {
               </ul>
 
               <div className="d-flex flex-wrap gap-3 mt-4">
-                <a
-                  href="#planos"
-                  className="btn btn-primary btn-lg"
-                >
+                <a href="#planos" className="btn btn-primary btn-lg">
                   Ver planos
                 </a>
 
@@ -484,7 +485,8 @@ export default function App() {
                   >
                     <div className="fw-semibold">Cliente</div>
                     <div className="text-secondary">
-                      Olá, gostaria de saber mais sobre a solução de atendimento.
+                      Olá, gostaria de saber mais sobre a solução de
+                      atendimento.
                     </div>
                   </div>
 
@@ -508,11 +510,15 @@ export default function App() {
                 <div className="row text-center g-3 mt-1">
                   <div className="col-4">
                     <div className="fw-bold fs-4 text-primary">1+</div>
-                    <small className="text-secondary">Canal centralizado</small>
+                    <small className="text-secondary">
+                      Canal centralizado
+                    </small>
                   </div>
                   <div className="col-4">
                     <div className="fw-bold fs-4 text-primary">5+</div>
-                    <small className="text-secondary">Usuários por plano</small>
+                    <small className="text-secondary">
+                      Usuários por plano
+                    </small>
                   </div>
                   <div className="col-4">
                     <div className="fw-bold fs-4 text-primary">100%</div>
@@ -532,7 +538,8 @@ export default function App() {
               <h2 className="fw-bold mb-3">Como trabalhamos</h2>
               <p className="text-secondary mb-0">
                 A VBA Solutions busca unir visão prática, proximidade e
-                organização para entregar soluções aderentes à realidade da empresa.
+                organização para entregar soluções aderentes à realidade da
+                empresa.
               </p>
             </div>
 
@@ -603,11 +610,13 @@ export default function App() {
                     </div>
 
                     <p className="mb-2">
-                        <strong>{plan.channels}</strong> {plan.channels === 1 ? "canal" : "canais"}
+                      <strong>{plan.channels}</strong>{" "}
+                      {plan.channels === 1 ? "canal" : "canais"}
                     </p>
 
                     <p className="mb-4">
-                        <strong>{plan.users}</strong> {plan.users === 1 ? "usuário" : "usuários"}
+                      <strong>{plan.users}</strong>{" "}
+                      {plan.users === 1 ? "usuário" : "usuários"}
                     </p>
 
                     <a
@@ -688,10 +697,8 @@ export default function App() {
               marginBottom: "12px",
             }}
           />
-          
-          <p className="mb-1">
-            Soluções em TI para sua empresa
-          </p>
+
+          <p className="mb-1">Soluções em TI para sua empresa</p>
           <p className="mb-0">
             (18) 99607-6660 • vitor.albanez@vbasolutions.com.br
           </p>
