@@ -1,10 +1,15 @@
+import logo from "../assets/images/vba_logo_inline_com-icone_preto.png";
 export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
       <div className="container">
-        <a className="navbar-brand fw-bold" href="#inicio">
-          VBA Solutions
-        </a>
+      <a className="navbar-brand d-flex align-items-center" href="#inicio">
+        <img
+          src={logo}
+          alt="VBA Solutions"
+          className="navbar-logo"
+        />
+      </a>
 
         <button
           className="navbar-toggler"
