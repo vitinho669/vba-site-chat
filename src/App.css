@@ -16,6 +16,11 @@ section {
   letter-spacing: 0.3px;
 }
 
+.navbar-logo {
+  height: 36px;
+  width: auto;
+}
+
 .hero-section {
   background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);
   position: relative;
